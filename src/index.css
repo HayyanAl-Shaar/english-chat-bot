@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background: rgb(51, 51, 51);
+  display: flex;
+  justify-content: right;
+  height: 5pc;
+  position: relative;
+  padding: 20px;
+}
+.headerButton {
+  padding: 10px;
+  margin-left: 5px;
+  background-color: #0f55ee;
+  color: white;
+  border: 2px solid #497dec;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 20px;
+
+}
+
+.headerButton:hover {
+  background-color: #497dec;
+
+}
+
